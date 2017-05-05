@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokémon Poo</title>
+  </head>
+  <body background="nubes.png">
+    <section class="contenedor">
+      <div class="container-fluid">
+      <div align="center">
+    <img src="pokemon.png" alt="logo pokemon" width="800" height="300">
+  
+    <h1 id="form-signup-heading">
+      <font face="Comic Sans MS" size=6 color=black>Entrena en nuestro Gimnasio Pokémon
+      </font>
+    </h1>
+     <p id="contenedor"></p>
+      <div class="form-group">
+        <select id="pokemon1">
+          <option value="0">Selecciona pokémon 1</option>
+          <option value="Pikachu">Pikachu</option>
+          <option value="Charmander">Charmander</option>
+          <option value="Squirtle">Squirtle</option>
+          <option value="Bulbasaur">Bulbasaur</option>
+          <option value="Mew">Eevee</option>
+          <option value="Jigglypuff">Jigglypuff</option>
+          <option value="Snorlax">Snorlax</option>
+        </select>
+        <select id="pokemon2" color=indigo>
+          <option value="0">Selecciona pokémon 2</option>
+          <option value="Pikachu">Pikachu</option>
+          <option value="Charmander">Charmander</option>
+          <option value="Squirtle">Squirtle</option>
+          <option value="Bulbasaur">Bulbasaur</option>
+          <option value="Eevee">Eevee</option>
+          <option value="Jigglypuff">Jigglypuff</option>
+          <option value="Snorlax">Snorlax</option>
+        </select>
+      </div>
+      <div class="checkbox">
+        <button class="btn btn-lg btn-primary btn-block submit-btn" onclick="pelea()" type="submit" style="background-color:gold;"><font face="Comic Sans MS" size=3 color=indigo>Pelear</font></button>
+      </div>
+      <h3>
+        <font face="Comic Sans MS">
+          <div id="mensaje">
+          </div>
+        </font>
+      </h3>
+    </section>
+    <script type='text/javascript' src='js/main.js'></script>
+  </body>
+</html>
