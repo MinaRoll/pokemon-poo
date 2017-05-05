@@ -16,8 +16,7 @@ function Pokemon(nombre, color, nivelDeAmistadd, vida, poderDeAtaque){
 
 	this.atacar =	function(pokemon){
 						pokemon.vida = pokemon.vida - this.poderDeAtaque
-    					//var batalla = document.getElementById('batalla');
-    					//batalla.innerHTML = this.nombre + " vs " + pokemon.nombre + "!<br>" + pokemon.nombre + " tiene una vida de: " + pokemon.vida;
+    					
   					}
 }
 
